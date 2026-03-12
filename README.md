@@ -13,7 +13,8 @@ Temporal Trends: Interestingly, the "Year" feature shows a slight negative corre
 ## Model Performance
 ### Regression AnalysisWe compared four different models using $R^2$ scores via Cross-Validation.
 Random Forest and Gradient Boosting emerged as the top performers, significantly outperforming simple Linear Regression.
-ModelAverage R2 ScoreRandom Forest~0.92Gradient Boosting~0.91Linear Regression~0.88Decision Tree~0.85
+ModelAverage R2 Score <img width="800" height="500" alt="model_comparison" src="https://github.com/user-attachments/assets/5bad37ea-0800-4e27-a6f0-a03b9d796fab" />
+
 ### Classification ResultsThe classification model shows high precision, especially for the "Unhealthy" and "Very Unhealthy" categories.
 High True Positives: The model correctly identified 1,079 "Unhealthy" instances.
 Common Confusion: The model occasionally confuses "Good" with "Unhealthy," which suggests some overlapping feature ranges in those specific data points.
@@ -25,3 +26,4 @@ Below are the key analytical plots generated during this project.
 ## Tech StackLanguage: Python
 Libraries: Pandas, Scikit-learn, Matplotlib, Seaborn
 Models: Random Forest, Gradient Boosting, Decision Trees, Linear Regression
+
